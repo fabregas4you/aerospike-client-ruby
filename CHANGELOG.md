@@ -1,3 +1,13 @@
+## Feb 4 2016 (0.1.6.1)
+
+  Minor features added.
+
+  * **New Features**:
+
+    * Added Float Type
+
+  * **Fixes**
+
 ## Dec 28 2014 (0.1.6)
 
   Minor features added, minor fixes and improvements.

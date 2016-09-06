@@ -1,6 +1,9 @@
 # Aerospike Ruby Client (Alpha)
 
-An Aerospike library for Ruby.
+A Clone Aerospike library for Ruby v0.1.6.
+
++ v0.1.6 -> v0.1.6.1
+  * Add "float" type.
 
 This library is compatible with Ruby 1.9.3+ and supports Linux, Mac OS X and various other BSDs. Rubinius is supported, but not JRuby - yet. For the moment, query and scan operations are also not supported.
 

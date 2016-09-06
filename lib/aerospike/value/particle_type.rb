@@ -20,6 +20,7 @@ module Aerospike
     # Server particle types. Unsupported types are commented out.
     NULL = 0
     INTEGER = 1
+    DOUBLE = 2  ## float
     #BIGNUM = 2
     STRING = 3
     BLOB = 4

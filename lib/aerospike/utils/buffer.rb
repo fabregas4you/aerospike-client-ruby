@@ -31,6 +31,7 @@ module Aerospike
     INT16 = 's>'
     INT32 = 'l>'
     INT64 = 'q>'
+    DOUBLE = 'G'
 
     DEFAULT_BUFFER_SIZE = 16 * 1024
     MAX_BUFFER_SIZE = 10 * 1024 * 1024
@@ -119,6 +120,13 @@ module Aerospike
       end
       val
     end
+
+    ## float
+    def read_double(offset)
+      vals = @buf[offset..offset+7]
+      vals.unpack(DOUBLE)[0]
+    end
+    ## 
 
     def to_s
       @buf[0..@slice_end-1]
